@@ -15,9 +15,9 @@ How to use
         window.addEvent("domready", function() {
             $$('#featured li').each(function(li){
                 li.hoverIntent(
-                    over: makeTall, // function = onMouseOver callback (REQUIRED)    
+                    over: function(e){},   
                     timeout: 500, // number = milliseconds delay before onMouseOut    
-                    out: makeShort // function = onMouseOut callback (REQUIRED)  
+                    out: function(e){} 
                 );
             })
         });
