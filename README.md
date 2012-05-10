@@ -14,7 +14,7 @@ How to use
     <script type="text/javascript">
         window.addEvent("domready", function() {
             $$('#featured li').each(function(li){
-                .hoverIntent(
+                li.hoverIntent(
                     over: makeTall, // function = onMouseOver callback (REQUIRED)    
                     timeout: 500, // number = milliseconds delay before onMouseOut    
                     out: makeShort // function = onMouseOut callback (REQUIRED)  
