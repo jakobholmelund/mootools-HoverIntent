@@ -1,9 +1,9 @@
 /*
 ---
 
-name: PictureSlider
+name: HoverIntent
 
-description: Animated picture slider. This is a port of jQuery HoverIntent
+description: This is a port of jQuery HoverIntent
 
 license: MIT-style
 
